@@ -1,0 +1,32 @@
+{
+  "name": "202205-w03ch01-sergio-hernandez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergioH1/202205-w03ch01-sergio-hernandez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergioH1/202205-w03ch01-sergio-hernandez/issues"
+  },
+  "homepage": "https://github.com/SergioH1/202205-w03ch01-sergio-hernandez#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
