@@ -4,7 +4,7 @@ import { Adviser } from './Asesor.js';
 import { Shieldman } from './Escudero.js';
 
 let jofrey = new King(
-  'Jofrey Baratheon',
+  'Jofrey',
   'Baratheon',
   14,
   './img/joffrey.jpg',
@@ -12,7 +12,7 @@ let jofrey = new King(
   2
 );
 let jaime = new Luchador(
-  'Jaime Lannister',
+  'Jaime',
   'Lannister',
   34,
   './img/jaime.jpg',
@@ -21,7 +21,7 @@ let jaime = new Luchador(
   '9'
 );
 let daenerys = new Luchador(
-  'Daenerys Targaryen',
+  'Daenerys',
   'Targaryen',
   17,
   './img/daenerys.jpg',
@@ -30,7 +30,7 @@ let daenerys = new Luchador(
   '3'
 );
 let tyrion = new Adviser(
-  'Tyrion Lannister',
+  'Tyrion',
   'Lannister',
   28,
   './img/tyrion.jpg',

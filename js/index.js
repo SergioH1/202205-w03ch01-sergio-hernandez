@@ -37,7 +37,7 @@ function createCharacterTemplate(item) {
               class="character__picture card-img-top"
             />
             <div class="card-body">
-                <h2 class="character__name card-title h4">${item.name} y ${item.family}</h2>
+                <h2 class="character__name card-title h4">${item.name} ${item.family}</h2>
                 <div class="character__info">
                 <ul class="list-unstyled">
                   <li>Edad: ${item.age} años</li>
