@@ -8,3 +8,5 @@ export class King extends CharacterGoT {
     this.dialogue = 'Vais a morir todos';
   }
 }
+
+console.log(King.yearsOfKingdom);

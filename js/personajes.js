@@ -21,5 +21,5 @@ let tyrion = new Adviser(
 );
 let bron = new Shieldman('Brom', 'Blackwater', 38, 'Shieldman', 3);
 
-let arrayCharacters = [jofrey, jaime, daenerys, tyrion, bron];
+export let arrayCharacters = [jofrey, jaime, daenerys, tyrion, bron];
 console.log(arrayCharacters);

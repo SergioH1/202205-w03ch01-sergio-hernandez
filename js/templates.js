@@ -1,13 +1,5 @@
-import { arrayCharacters } from './personajes';
-
-function checkQharacters(array) {
-  let state = ;
-  if (array.live === 'alive') {
-    state = `<i class="fas fa-thumbs-up"></i>;`;
-  }else{
-    state = `<i class="fas fa-thumbs-down"></i>`
-  }
-  return`<ul class="characters-list row list-unstyled">
+export function addTemplateQharacters(personaje) {
+  return `<ul class="characters-list row list-unstyled">
         <li class="character col">
           <div class="card character__card">
             <img
@@ -45,10 +37,5 @@ function checkQharacters(array) {
             <i class="emoji"></i>
           </div>
         </li>
-      </ul>`
+      </ul>`;
 }
-
-(() => {
-  document.addEventListener('DOMContentLoaded', index);
-  document.querySelector;
-})();

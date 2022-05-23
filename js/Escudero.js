@@ -5,5 +5,6 @@ export class Shieldman extends CharacterGoT {
     this.type = type;
     this.makeTheBall = 8;
     this.dialogue = 'Soy un loser';
+    this.servedTo = 'Tyrion Lannister';
   }
 }
