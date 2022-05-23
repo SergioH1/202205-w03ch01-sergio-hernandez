@@ -1,32 +1,33 @@
 {
-  "name": "202205-w03ch01-sergio-hernandez",
+  "name": "a",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "type": "module",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SergioH1/202205-w03ch01-sergio-hernandez.git"
+    "test": "jest --watchAll --coverage"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alejandro Cerezo",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SergioH1/202205-w03ch01-sergio-hernandez/issues"
-  },
-  "homepage": "https://github.com/SergioH1/202205-w03ch01-sergio-hernandez#readme",
-  "devDependencies": {
-    "eslint": "^8.16.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.0",
-    "eslint-plugin-promise": "^6.0.0"
-  },
   "prettier": {
     "singleQuote": true
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.17.12",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.0"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
   }
 }
