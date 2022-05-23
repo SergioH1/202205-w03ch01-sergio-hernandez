@@ -1,13 +1,21 @@
-import { arrayCharacters } from './personajes';
+import { Luchador } from './Luchador.js';
+import { Adviser } from './Asesor-js';
+import { arrayCharacters } from './personajes.js';
+import { King } from './Rey.js';
 
-function checkQharacters(array) {
-  let state = ;
-  if (array.live === 'alive') {
+function checkQharacters(item) {
+  let state = '';
+  if (item.live === 'alive') {
     state = `<i class="fas fa-thumbs-up"></i>;`;
-  }else{
-    state = `<i class="fas fa-thumbs-down"></i>`
+  } else {
+    state = `<i class="fas fa-thumbs-down"></i>`;
   }
-  return`<ul class="characters-list row list-unstyled">
+  if (item instanceof King) {
+  } else if (item instanceof Luchador) {
+  } else if (item instanceof Adviser) {
+  } else {
+  }
+  return `<ul class="characters-list row list-unstyled">
         <li class="character col">
           <div class="card character__card">
             <img
@@ -45,7 +53,7 @@ function checkQharacters(array) {
             <i class="emoji"></i>
           </div>
         </li>
-      </ul>`
+      </ul>`;
 }
 
 (() => {
